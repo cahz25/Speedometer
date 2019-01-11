@@ -26,16 +26,16 @@ class Auto {
         
         switch velocidad {
         case Velocidades.apagado:
-            velocidad = Velocidades.velocidadBaja
+            velocidad = .velocidadBaja
             break
         case Velocidades.velocidadBaja:
-            velocidad = Velocidades.velocidadMedia
+            velocidad = .velocidadMedia
             break
         case Velocidades.velocidadMedia:
-            velocidad = Velocidades.velocidadAlta
+            velocidad = .velocidadAlta
             break
         case Velocidades.velocidadAlta:
-            velocidad = Velocidades.velocidadMedia
+            velocidad = .velocidadMedia
             break
         }
         
