@@ -1,5 +1,6 @@
 import UIKit
 
+//Enumeracion de velocidades
 enum Velocidades: Int {
     case apagado = 0
     case velocidadBaja = 20
@@ -11,6 +12,7 @@ enum Velocidades: Int {
     }
 }
 
+//Clase auto
 class Auto {
     var velocidad: Velocidades
     
@@ -43,8 +45,10 @@ class Auto {
     
 }
 
+//inicializacion variable auto con clase Auto
 let carro = Auto()
 
+//Iteracion de la funcion cambioDeVelociad
 for _ in 0...19 {
    print(carro.cambioDeVelocidad())
 }
